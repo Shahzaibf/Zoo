@@ -7,5 +7,7 @@ Each Animal page needs a picture and description of the animal.
 Each page will be done in feature branches.
 
 
-Group Members:
+## Group Members:
+
+
 Shahzaib Fareed - Shahzaibf
