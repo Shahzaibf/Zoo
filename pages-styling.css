@@ -1,9 +1,15 @@
-.orangutan-body {
-    font-family: Optima, sans-serif;
+body {
     text-align: center;
+    font-family: Optima, sans-serif;
+}
+
+.orangutan-body {
     background-color: #ef5327;
 }
 
+.Lynxes-body {
+    background-color: #ADD8E6;
+}
 img {
     display: block;
     margin-left: auto;
@@ -13,17 +19,34 @@ img {
 a {
     text-decoration: none;
 }
+
 .Orangutan-return {
-    background-color: red;
     cursor: pointer;
-    border: grey;
     font-size: 16px;
     border-radius: 15px;
     padding: 10px 100px;
     transition-duration: .4s;
+    background-color: red;
+    border: grey;
 }
 
 .Orangutan-return:hover {
     background-color: white;
     color: red;
+}
+
+.Lynx-return {
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 15px;
+    padding: 10px 100px;
+    transition-duration: .4s;
+    background-color: blue;
+    color: white;
+    border: black;
+}
+
+.Lynx-return:hover {
+    background-color: white;
+    color: blue;
 }
