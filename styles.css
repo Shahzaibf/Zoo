@@ -19,3 +19,6 @@ img {
 a {
     margin: 50px;
 }
+a:visited {
+    text-decoration: none;
+}
