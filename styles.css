@@ -1,6 +1,7 @@
 body {
     background-color: white;
 }
+
 img {
     display: block;
     margin-left: auto;
@@ -15,6 +16,6 @@ img {
     display: block;
     text-align: center;
 }
-a{
+a {
     margin: 50px;
 }
