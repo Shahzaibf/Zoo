@@ -10,22 +10,29 @@ body {
 .Lynxes-body {
     background-color: #ADD8E6;
 }
+
+.giraffe-body {
+    background-color: #fefe33;
+}
+
 img {
     display: block;
     margin-left: auto;
     margin-right: auto;
     max-width: 500px;
+    max-height: 400px;
 }
 a {
     text-decoration: none;
 }
-
-.Orangutan-return {
+button {
     cursor: pointer;
     font-size: 16px;
     border-radius: 15px;
     padding: 10px 100px;
     transition-duration: .4s;
+}
+.Orangutan-return {
     background-color: red;
     border: grey;
 }
@@ -36,11 +43,6 @@ a {
 }
 
 .Lynx-return {
-    cursor: pointer;
-    font-size: 16px;
-    border-radius: 15px;
-    padding: 10px 100px;
-    transition-duration: .4s;
     background-color: blue;
     color: white;
     border: black;
@@ -49,4 +51,15 @@ a {
 .Lynx-return:hover {
     background-color: white;
     color: blue;
+}
+
+.Giraffe-return {
+    background-color: darkgoldenrod;
+    color: white;
+    border: black;
+}
+
+.Giraffe-return:hover {
+    background-color: white;
+    color: darkgoldenrod;
 }
